@@ -1,0 +1,116 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8%;
+  padding: 0 2% 0 2%;
+  margin: 0;
+  background-color: rgba(192, 234, 250, 0.432);
+}
+
+h1 {
+  color: #901c1c;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0.25em;
+  font-weight: bold;
+}
+
+div {
+  padding: 5px;
+}
+
+p {
+  margin: 0.5em;
+}
+
+.logo {
+  height: 50px;
+}
+
+section {
+  margin: 2%;
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(189, 189, 189);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+.individualsUl {
+  margin: 1%;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.individualsUl li {
+  background-color: rgb(236, 236, 236);
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.individualsUl li a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.individualsUl li a img {
+  height: 3em;
+  margin: 2px;
+  padding: 0;
+}
+
+.individualsUl li a div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individualsUl li a div p {
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 670px) {
+  section {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
